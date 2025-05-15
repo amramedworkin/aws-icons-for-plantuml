@@ -1,0 +1,12 @@
+@startuml EC2LaunchTemplate Facade
+
+' This is the content of Compute/EC2LaunchTemplate.puml
+
+!define EC2LaunchTemplate General/GenericApplication  ' Define the alias
+
+' You might also want to forward any parameters:
+!unquoted procedure EC2LaunchTemplate($param1, $param2, $param3)
+  !include General/GenericApplication.puml
+!endprocedure
+
+@enduml

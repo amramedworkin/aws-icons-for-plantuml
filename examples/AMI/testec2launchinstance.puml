@@ -1,0 +1,9 @@
+@startuml EC2 Launch Instance
+
+!define AWSPuml https://raw.githubusercontent.com/amramedworkin/aws-icons-for-plantuml/main/dist
+!include AWSPuml/AWSCommon.puml
+!include AWSPuml/Compute/EC2LaunchTemplate.puml
+
+EC2LaunchTemplate(bobo, "My Instance", "")
+
+@enduml
