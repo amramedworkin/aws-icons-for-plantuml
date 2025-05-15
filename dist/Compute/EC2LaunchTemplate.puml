@@ -6,7 +6,7 @@
 
 ' You might also want to forward any parameters:
 !unquoted procedure EC2LaunchTemplate($param1, $param2, $param3)
-  !include ../General/GenericApplication.puml
+  !include ./General/GenericApplication.puml
 !endprocedure
 
 @enduml
